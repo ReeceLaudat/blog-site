@@ -7,14 +7,15 @@
 :root {
   --accent: #6a994e;
   --accent-dark: #386641;
+  --base-color: #f2e8cf;
   --black: 15, 18, 25;
-  --gray: 96, 115, 159;
+  --green: #a7c957;
   --gray-light: 229, 233, 240;
   --gray-dark: 34, 41, 57;
-  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
+  --gray-gradient: rgba(var(--green), 50%), #fff;
   --box-shadow:
-    0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-    0 16px 32px rgba(var(--gray), 33%);
+    0 2px 6px rgba(var(--green), 25%), 0 8px 24px rgba(var(--green), 33%),
+    0 16px 32px rgba(var(--green), 33%);
 }
 
 body {
@@ -26,7 +27,7 @@ body {
   background-size: 100% 600px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: rgb(var(--gray-dark));
+  color: #344e41;
   font-size: 20px;
   line-height: 1.7;
 }
